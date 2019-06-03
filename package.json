@@ -1,6 +1,6 @@
 {
   "name": "norcal",
-  "version": "2.0.1",
+  "version": "1.0.0",
   "description": "p2p command-line calendar",
   "main": "index.js",
   "bin": {
@@ -11,9 +11,6 @@
     "collect-stream": "^1.1.1",
     "fuzzy-ansi-color": "^1.0.0",
     "has": "^1.0.1",
-    "hyperkv": "^1.7.0",
-    "hyperlog": "^4.7.0",
-    "hyperlog-calendar-index": "^2.1.0",
     "level": "^1.4.0",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
@@ -34,17 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/substack/norcal.git"
+    "url": "git://github.com/noffle/norcal.git"
   },
-  "homepage": "https://github.com/substack/norcal",
+  "homepage": "https://github.com/noffle/norcal",
   "keywords": [
     "calendar",
     "replication"
   ],
-  "author": {
-    "name": "James Halliday",
-    "email": "mail@substack.net",
-    "url": "http://substack.net"
-  },
   "license": "MIT"
 }
